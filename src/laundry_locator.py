@@ -35,10 +35,9 @@ exampleMachine.printInfo();
 exampleMachine2 = machine()
 row_array = sheet.row_values(1)
 
-
 exampleMachine2.buildingName = row_array[0]
-exampleMachine2.floor = row_array[1]
-exampleMachine2.machineNumber = row_array[2]
+exampleMachine2.floor = int(row_array[1])
+exampleMachine2.machineNumber = int(row_array[2])
 exampleMachine2.controller = row_array[3]
 exampleMachine2.cscCode = row_array[4]
 
