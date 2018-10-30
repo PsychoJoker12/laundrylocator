@@ -3,7 +3,7 @@ import xlrd
 
 #define variable linked to excel spreadsheet w data
 #to run on your pc you'll have to correct the path
-loc = ("/Users/jduval/Documents/GitHub/laundrylocator/src/exampleSheet.xlsx")
+loc = ("/Users/jduval/Documents/GitHub/laundrylocator/src/data/exampleSheet.xlsx")
 
 wb = xlrd.open_workbook(loc)
 sheet = wb.sheet_by_index(0)
