@@ -1,40 +1,32 @@
-#Use pip install xlrd
-import xlrd
+import csv
+import os
 
-#define variable linked to excel spreadsheet w data
-#to run on your pc you'll have to correct the path
-loc = ("/Users/jduval/Documents/GitHub/laundrylocator/src/exampleSheet.xlsx")
+from machine import Machine
 
-wb = xlrd.open_workbook(loc)
-sheet = wb.sheet_by_index(0)
+def load_machine_data(csv_path):
+    """Returns a list of Machines based on the csv file
 
-sheet.cell_value(0,0)
+    Keyword Arguements:
+    - csv_path: the path on the machine that leads to the data
+    """
+    machines = []
+    with open(csv_path, 'r') as csvfile:
+        # Open the machine data and load each machine into the machines list
+        data = csv.reader(csvfile, delimiter=',')
+        next(data, None) # Skip the header line
+        for row in data:
+            machines.append(Machine(row[0], row[1], row[2], 
+                                    row[3], row[4], row[5]))
+    return machines
 
-totalList = []
+"""
+BEGIN MAIN FILE
+"""
 
+WORKING_DIR = os.path.dirname(__file__)
 
-class machine():
-    def __init__(self):
-        self.buildingName = "";
-        self.floor = 0;
-        self.machineNumber = 0;
-        self.controller = "A";
-        self.cscCode = "";
-
-    def printInfo(self):
-        print(self.buildingName + "-" + str(self.floor) + "-" + str(self.machineNumber) + "-" + self.controller + "-" + self.cscCode);
-
-#Looping through data sheet and making array of machines
-#set row number to 1 bc list is 0 index
-for i in range(1, sheet.nrows):
-    machineID = machine()
-    row_array = sheet.row_values(i)
-    machineID.buildingName = row_array[0]
-    machineID.floor = int(row_array[1])
-    machineID.machineNumber = int(row_array[2])
-    machineID.controller = row_array[3]
-    machineID.cscCode = row_array[4]
-
-    totalList.append(machineID.printInfo());
-
-print(totalList)
+if __name__ == "__main__":
+    data_sheet = os.path.join(WORKING_DIR, "data/test_sheet.csv")
+    machines = load_machine_data(data_sheet)
+    
+    # TODO manipulate machines
