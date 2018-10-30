@@ -1,2 +1,5 @@
-﻿Building Name,Floor,Machine Number,Controller,CSC ID
-KER,6,1,A,xxx-xxx
+Type,Building,Floor,Machine Number,Controller,Code
+washer,KER,6,1,A,213-GKD
+washer,KER,6,2,A,214-GKD
+washer,KER,6,3,A,215-GKD
+washer,KER,6,4,A,216-GKD
