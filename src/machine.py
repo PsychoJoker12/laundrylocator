@@ -20,5 +20,5 @@ class Machine(object):
 
     def __str__(self):
         return "{}-{}-{}-{}-{}".format(self.buildingName, self.floor, 
-                                       self.machineNumber, self.controller
+                                       self.machineNumber, self.controller,
                                        self.cscCode)
