@@ -1,5 +1,146 @@
-Type,Building,Floor,Machine Number,Controller,Code
-washer,KER,6,1,A,213-GKD
-washer,KER,6,2,A,214-GKD
-washer,KER,6,3,A,215-GKD
-washer,KER,6,4,A,216-GKD
+Building,Floor,Controller,Type,Machine Number,Code
+Ker Hall,6,single,washer,1,213-GKD
+Ker Hall,6,single,washer,2,214-GKD
+Ker Hall,6,single,washer,3,215-GKD
+Ker Hall,6,single,washer,4,216-GKD
+110 St. Stephen Street,-1,single,washer,1,162-GKC
+110 St. Stephen Street,-1,single,washer,2,163-GKC
+110 St. Stephen Street,-1,single,washer,3,164-GKC
+110 St. Stephen Street,-1,single,washer,4,165-GKC
+110 St. Stephen Street,-1,single,dryer,5,166-GKC
+110 St. Stephen Street,-1,single,dryer,6,167-GKC
+110 St. Stephen Street,-1,single,dryer,7,168-GKC
+110 St. Stephen Street,-1,single,dryer,8,169-GKC
+319 Huntington Street,-1,single,washer,1,004-FCZ
+319 Huntington Street,-1,single,washer,2,005-FCZ
+319 Huntington Street,-1,single,washer,3,006-FCZ
+319 Huntington Street,-1,single,washer,4,007-FCZ
+319 Huntington Street,-1,single,washer,5,008-FCZ
+319 Huntington Street,-1,single,washer,6,009-FCZ
+319 Huntington Street,-1,single,washer,7,010-FCZ
+319 Huntington Street,-1,single,dryer,8,011-FCZ
+319 Huntington Street,-1,single,dryer,9,012-FCZ
+319 Huntington Street,-1,single,dryer,10,013-FCZ
+319 Huntington Street,-1,single,dryer,11,014-FCZ
+319 Huntington Street,-1,single,dryer,12,015-FCZ
+319 Huntington Street,-1,single,dryer,13,016-FCZ
+319 Huntington Street,-1,single,dryer,14,017-FCZ
+337 Huntington Street,-1,single,washer,1,022-FCZ
+337 Huntington Street,-1,single,washer,2,023-FCZ
+337 Huntington Street,-1,single,washer,3,024-FCZ
+337 Huntington Street,-1,single,washer,4,683-FCZ
+337 Huntington Street,-1,single,dryer,5,018-FCZ
+337 Huntington Street,-1,single,dryer,6,019-FCZ
+337 Huntington Street,-1,single,dryer,7,020-FCZ
+337 Huntington Street,-1,single,dryer,8,021-FCZ
+407 Huntington Street,-1,single,washer,1,493-GFJ
+407 Huntington Street,-1,single,washer,2,494-GFJ
+407 Huntington Street,-1,single,washer,3,495-GFJ
+407 Huntington Street,-1,single,washer,4,496-GFJ
+407 Huntington Street,-1,single,washer,5,497-GFJ
+407 Huntington Street,-1,single,washer,6,498-GFJ
+407 Huntington Street,-1,single,washer,7,499-GFJ
+407 Huntington Street,-1,single,washer,8,500-GFJ
+407 Huntington Street,-1,single,dryer,9,485-GFJ
+407 Huntington Street,-1,single,dryer,10,486-GFJ
+407 Huntington Street,-1,single,dryer,11,487-GFJ
+407 Huntington Street,-1,single,dryer,12,488-GFJ
+407 Huntington Street,-1,single,dryer,13,488-GFJ
+407 Huntington Street,-1,single,dryer,14,490-GFJ
+407 Huntington Street,-1,single,dryer,15,491-GFJ
+407 Huntington Street,-1,single,dryer,16,492-GFJ
+780 Columbus Street,-1,single,washer,1,359-GKC
+780 Columbus Street,-1,single,washer,2,360-GKC
+780 Columbus Street,-1,single,washer,3,361-GKC
+780 Columbus Street,-1,single,washer,4,362-GKC
+780 Columbus Street,-1,single,dryer,5,363-GKC
+780 Columbus Street,-1,single,dryer,6,364-GKC
+780 Columbus Street,-1,single,dryer,7,365-GKC
+780 Columbus Street,-1,single,dryer,8,366-GKC
+Davenport Commons A,1,A,washer,1,346-GKC
+Davenport Commons A,1,A,washer,2,347-GKC
+Davenport Commons A,1,A,washer,3,348-GKC
+Davenport Commons A,1,A,washer,4,349-GKC
+Davenport Commons A,1,A,washer,5,350-GKC
+Davenport Commons A,1,A,washer,6,351-GKC
+Davenport Commons A,1,A,washer,7,352-GKC
+Davenport Commons A,1,A,washer,8,355-GKC
+Davenport Commons A,1,A,washer,9,354-GKC
+Davenport Commons A,1,A,washer,10,353-GKC
+Davenport Commons A,1,A,washer,11,356-GKC
+Davenport Commons A,1,A,washer,12,357-GKC
+Davenport Commons A,1,A,washer,13,358-GKC
+Davenport Commons A,1,B,dryer,1,308-GKC
+Davenport Commons A,1,B,dryer,2,309-GKC
+Davenport Commons A,1,B,dryer,3,310-GKC
+Davenport Commons A,1,B,dryer,4,311-GKC
+Davenport Commons A,1,B,dryer,5,312-GKC
+Davenport Commons A,1,B,dryer,6,313-GKC
+Davenport Commons A,1,B,dryer,7,314-GKC
+Davenport Commons A,1,B,dryer,8,315-GKC
+Davenport Commons A,1,B,dryer,9,316-GKC
+Davenport Commons A,1,B,dryer,10,317-GKC
+Davenport Commons A,1,B,dryer,11,318-GKC
+Davenport Commons A,1,B,dryer,12,319-GKC
+Davenport Commons B,1,single,washer,1,640-GFL
+Davenport Commons B,1,single,washer,2,639-GFL
+Davenport Commons B,1,single,washer,3,647-GFL
+Davenport Commons B,1,single,washer,4,641-GFL
+Davenport Commons B,1,single,washer,5,642-GFL
+Davenport Commons B,1,single,washer,6,643-GFL
+Davenport Commons B,1,single,washer,7,644-GFL
+Davenport Commons B,1,single,washer,8,645-GFL
+Davenport Commons B,1,single,dryer,9,116-GKC
+Davenport Commons B,1,single,dryer,10,117-GKC
+Davenport Commons B,1,single,dryer,11,118-GCK
+Davenport Commons B,1,single,dryer,12,119-GKC
+Davenport Commons B,1,single,dryer,13,120-GKC
+Davenport Commons B,1,single,dryer,14,121-GKC
+Davenport Commons B,1,single,dryer,15,122-GKC
+Davenport Commons B,1,single,dryer,16,123-GKC
+International Village,2,A,dryer,1,200-GKC
+International Village,2,A,dryer,2,201-GKC
+International Village,2,A,dryer,3,202-GKC
+International Village,2,A,dryer,4,203-GKC
+International Village,2,A,dryer,5,204-GKC
+International Village,2,A,dryer,6,205-GKC
+International Village,2,A,dryer,7,061-GKC
+International Village,2,A,dryer,8,207-GKC
+International Village,2,A,dryer,9,208-GKC
+International Village,2,A,dryer,10,209-GKC
+International Village,2,A,washer,11,187-GKC
+International Village,2,A,washer,12,188-GCK
+International Village,2,A,washer,13,189-GKC
+International Village,2,A,washer,14,184-GKC
+International Village,2,A,washer,15,185-GKC
+International Village,2,A,washer,16,186-GKC
+International Village,2,B,washer,1,180-GKC
+International Village,2,B,washer,2,181-GKC
+International Village,2,B,washer,3,182-GKC
+International Village,2,B,washer,4,183-GKC
+International Village,2,B,washer,5,176-GKC
+International Village,2,B,washer,6,177-GKC
+International Village,2,B,washer,7,178-GKC
+International Village,2,B,washer,8,179-GKC
+International Village,2,C,washer,1,173-GKC
+International Village,2,C,washer,2,174-GKC
+International Village,2,C,washer,3,175-GKC
+International Village,2,C,washer,4,
+International Village,2,C,washer,5,
+International Village,2,C,washer,6,
+International Village,2,C,dryer,7,190-GKC
+International Village,2,C,dryer,8,191-GKC
+International Village,2,C,dryer,9,192-GKC
+International Village,2,C,dryer,10,193-GKC
+International Village,2,C,dryer,11,194-GKC
+International Village,2,C,dryer,12,195-GKC
+International Village,2,C,dryer,13,196-GKC
+International Village,2,C,dryer,14,197-GKC
+International Village,2,C,dryer,15,198-GKC
+International Village,2,C,dryer,16,199-GKC
+Light Hall,-1,single,washer,1,015-GKC
+Light Hall,-1,single,washer,2,016-GKC
+Light Hall,-1,single,washer,3,017-GKC
+Light Hall,-1,single,dryer,4,012-GKC
+Light Hall,-1,single,dryer,5,013-GKC
+Light Hall,-1,single,dryer,6,014-GKC
