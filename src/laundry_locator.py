@@ -29,4 +29,5 @@ if __name__ == "__main__":
     data_sheet = os.path.join(WORKING_DIR, "data/test_sheet.csv")
     machines = load_machine_data(data_sheet)
 
+    print(str(machines), sep='\n\n')
     # TODO manipulate machines

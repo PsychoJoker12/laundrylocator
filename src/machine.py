@@ -18,7 +18,17 @@ class Machine(object):
         self.controller = controller
         self.cscCode = code
 
+    def __repr__(self):
+        return "{}-{}-{}-{}-{}-{}".format(self.type, self.buildingName, 
+                                       self.floor, self.machineNumber, 
+                                       self.controller, self.cscCode)
+
     def __str__(self):
-        return "{}-{}-{}-{}-{}".format(self.buildingName, self.floor, 
-                                       self.machineNumber, self.controller,
-                                       self.cscCode)
+        return "Type: {}\n" \
+               "Building: {}\n" \
+               "Floor: {}\n" \
+               "Number: {}\n" \
+               "Controller: {}\n" \
+               "Code: {}\n".format(self.type, self.buildingName, self.floor, 
+                                   self.machineNumber, self.controller, 
+                                   self.cscCode)
